@@ -71,7 +71,7 @@ elemento.classList.remove('nueva-valor1');
 * Si tiene un valor descrito entre parentesis se lo quita, o si no lo tiene se lo coloca:
 ```js
 //Sintaxi:
-elemento.classList.add('valor');
+elemento.classList.toggle('valor');
 ```
 ### 8. classList.contains(‘titulo’)
 * Devuelve true o false Si una propiedad tiene un valor descrito entre parentesis
